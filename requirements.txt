@@ -1,444 +1,439 @@
-Package                                           Version
-------------------------------------------------- -------------------
-absl-py                                           1.2.0
-aiohttp                                           3.8.1
-aiosignal                                         1.2.0
-altair                                            4.2.0
-anyio                                             3.5.0
-apache-beam                                       2.41.0
-appdirs                                           1.4.4
-appnope                                           0.1.2
-apyori                                            1.1.2
-argon2-cffi                                       21.3.0
-argon2-cffi-bindings                              21.2.0
-arviz                                             0.12.1
-asgiref                                           3.5.2
-asttokens                                         2.0.5
-astunparse                                        1.6.3
-async-generator                                   1.10
-async-timeout                                     4.0.2
-attrs                                             21.4.0
-Augmentor                                         0.2.10
-avro-python3                                      1.10.2
-Babel                                             2.9.1
-backcall                                          0.2.0
-backports.zoneinfo                                0.2.1
-beautifulsoup4                                    4.11.1
-bing-image-downloader                             1.1.2
-bleach                                            4.1.0
-blinker                                           1.5
-bokeh                                             2.4.3
-branca                                            0.5.0
-brotlipy                                          0.7.0
-cachetools                                        5.1.0
-certifi                                           2022.12.7
-cffi                                              1.15.0
-cftime                                            1.6.1
-charset-normalizer                                2.0.4
-click                                             8.1.3
-clikit                                            0.6.2
-cloudpickle                                       2.1.0
-cmdstanpy                                         0.9.5
-colorama                                          0.4.5
-commonmark                                        0.9.1
-contextlib2                                       21.6.0
-contourpy                                         1.0.5
-convertdate                                       2.4.0
-cplex                                             22.1.0.0
-crashtest                                         0.3.1
-crcmod                                            1.7
-cryptography                                      37.0.1
-cycler                                            0.11.0
-Cython                                            0.29.32
-debugpy                                           1.5.1
-decorator                                         5.1.1
-deepface                                          0.0.75
-defusedxml                                        0.7.1
-dill                                              0.3.1.1
-Django                                            4.1.1
-django-crispy-forms                               1.14.0
-dm-tree                                           0.1.7
-docopt                                            0.6.2
-docplex                                           2.23.222
-easydict                                          1.9
-easyocr                                           1.4.2
-entrypoints                                       0.4
-ephem                                             4.1.2
-et-xmlfile                                        1.1.0
-etils                                             0.7.1
-executing                                         0.8.3
-fastavro                                          1.6.0
-fastjsonschema                                    2.15.1
-fbprophet                                         0.7.1
-filelock                                          3.7.0
-fire                                              0.4.0
-Flask                                             2.1.2
-flatbuffers                                       1.12
-folium                                            0.12.1.post1
-fonttools                                         4.37.1
-frozenlist                                        1.3.1
-future                                            0.18.2
-gast                                              0.4.0
-gdown                                             4.4.0
-gin-config                                        0.5.0
-gitdb                                             4.0.9
-GitPython                                         3.1.29
-google-api-core                                   2.10.0
-google-api-python-client                          2.58.0
-google-auth                                       2.6.6
-google-auth-httplib2                              0.1.0
-google-auth-oauthlib                              0.4.6
-google-images-download                            2.8.0
-google-pasta                                      0.2.0
-googleapis-common-protos                          1.56.4
-grpcio                                            1.34.1
-h11                                               0.13.0
-h5py                                              3.1.0
-hdfs                                              2.7.0
-hijri-converter                                   2.2.4
-holidays                                          0.15
-httplib2                                          0.20.4
-httpstan                                          4.8.2
-idna                                              3.3
-imageio                                           2.19.2
-importlib-metadata                                4.11.4
-importlib-resources                               5.2.0
-ipykernel                                         6.9.1
-ipympl                                            0.9.2
-ipython                                           8.3.0
-ipython-genutils                                  0.2.0
-ipywidgets                                        7.7.1
-itsdangerous                                      2.1.2
-jedi                                              0.18.1
-Jinja2                                            3.0.3
-joblib                                            1.1.0
-json5                                             0.9.6
-jsonschema                                        4.4.0
-jupyter-client                                    7.2.2
-jupyter-core                                      4.10.0
-jupyter-server                                    1.13.5
-jupyterlab                                        3.3.2
-jupyterlab-pygments                               0.1.2
-jupyterlab-server                                 2.12.0
-jupyterlab-widgets                                1.1.1
-kaggle                                            1.5.12
-keras                                             2.9.0
-keras-nightly                                     2.5.0.dev2021032900
-Keras-Preprocessing                               1.1.2
-kiwisolver                                        1.4.4
-korean-lunar-calendar                             0.2.1
-libclang                                          14.0.1
-LunarCalendar                                     0.0.9
-lvis                                              0.5.3
-lxml                                              4.9.1
-Markdown                                          3.3.7
-MarkupSafe                                        2.0.1
-marshmallow                                       3.17.1
-matplotlib                                        3.6.0
-matplotlib-inline                                 0.1.2
-mistune                                           0.8.4
-mkl-fft                                           1.3.1
-mkl-random                                        1.2.2
-mkl-service                                       2.4.0
-mtcnn                                             0.1.1
-multi-label-pigeon                                0.2.0
-multidict                                         6.0.2
-munkres                                           1.1.4
-nb-conda-kernels                                  2.3.1
-nbclassic                                         0.3.5
-nbclient                                          0.5.13
-nbconvert                                         6.4.4
-nbformat                                          5.3.0
-nest-asyncio                                      1.5.5
-netCDF4                                           1.6.0
-networkx                                          2.8.2
-notebook                                          6.4.11
-numpy                                             1.22.3
-oauth2client                                      4.1.3
-oauthlib                                          3.2.0
-object-detection                                  0.1
-opencv-contrib-python                             4.5.5.64
-opencv-python                                     4.5.5.64
-opencv-python-headless                            4.5.4.60
-openpyxl                                          3.0.10
-opt-einsum                                        3.3.0
-orjson                                            3.8.0
-outcome                                           1.2.0
-packaging                                         21.3
-pandas                                            1.4.2
-pandocfilters                                     1.5.0
-parso                                             0.8.3
-pastel                                            0.2.1
-pexpect                                           4.8.0
-pickleshare                                       0.7.5
-Pillow                                            9.1.1
-pip                                               21.2.4
-plotly                                            5.11.0
-portalocker                                       2.5.1
-prometheus-client                                 0.13.1
-promise                                           2.3
-prompt-toolkit                                    3.0.20
-proto-plus                                        1.22.1
-protobuf                                          3.20.3
-psutil                                            5.9.1
-ptyprocess                                        0.7.0
-PuLP                                              2.6.0
-pure-eval                                         0.2.2
-py-cpuinfo                                        8.0.0
-pyarrow                                           7.0.0
-pyasn1                                            0.4.8
-pyasn1-modules                                    0.2.8
-PyAudio                                           0.2.11
-pycocotools                                       2.0.4
-pycparser                                         2.21
-pydeck                                            0.8.0
-pydot                                             1.4.2
-Pygments                                          2.11.2
-pylev                                             1.4.0
-PyMeeus                                           0.5.11
-pymongo                                           3.12.3
-Pympler                                           1.0.1
-pyobjc                                            8.5
-pyobjc-core                                       8.5
-pyobjc-framework-Accessibility                    8.5
-pyobjc-framework-Accounts                         8.5
-pyobjc-framework-AddressBook                      8.5
-pyobjc-framework-AdServices                       8.5
-pyobjc-framework-AdSupport                        8.5
-pyobjc-framework-AppleScriptKit                   8.5
-pyobjc-framework-AppleScriptObjC                  8.5
-pyobjc-framework-ApplicationServices              8.5
-pyobjc-framework-AppTrackingTransparency          8.5
-pyobjc-framework-AudioVideoBridging               8.5
-pyobjc-framework-AuthenticationServices           8.5
-pyobjc-framework-AutomaticAssessmentConfiguration 8.5
-pyobjc-framework-Automator                        8.5
-pyobjc-framework-AVFoundation                     8.5
-pyobjc-framework-AVKit                            8.5
-pyobjc-framework-BusinessChat                     8.5
-pyobjc-framework-CalendarStore                    8.5
-pyobjc-framework-CallKit                          8.5
-pyobjc-framework-CFNetwork                        8.5
-pyobjc-framework-ClassKit                         8.5
-pyobjc-framework-CloudKit                         8.5
-pyobjc-framework-Cocoa                            8.5
-pyobjc-framework-Collaboration                    8.5
-pyobjc-framework-ColorSync                        8.5
-pyobjc-framework-Contacts                         8.5
-pyobjc-framework-ContactsUI                       8.5
-pyobjc-framework-CoreAudio                        8.5
-pyobjc-framework-CoreAudioKit                     8.5
-pyobjc-framework-CoreBluetooth                    8.5
-pyobjc-framework-CoreData                         8.5
-pyobjc-framework-CoreHaptics                      8.5
-pyobjc-framework-CoreLocation                     8.5
-pyobjc-framework-CoreMedia                        8.5
-pyobjc-framework-CoreMediaIO                      8.5
-pyobjc-framework-CoreMIDI                         8.5
-pyobjc-framework-CoreML                           8.5
-pyobjc-framework-CoreMotion                       8.5
-pyobjc-framework-CoreServices                     8.5
-pyobjc-framework-CoreSpotlight                    8.5
-pyobjc-framework-CoreText                         8.5
-pyobjc-framework-CoreWLAN                         8.5
-pyobjc-framework-CryptoTokenKit                   8.5
-pyobjc-framework-DataDetection                    8.5
-pyobjc-framework-DeviceCheck                      8.5
-pyobjc-framework-DictionaryServices               8.5
-pyobjc-framework-DiscRecording                    8.5
-pyobjc-framework-DiscRecordingUI                  8.5
-pyobjc-framework-DiskArbitration                  8.5
-pyobjc-framework-DVDPlayback                      8.5
-pyobjc-framework-EventKit                         8.5
-pyobjc-framework-ExceptionHandling                8.5
-pyobjc-framework-ExecutionPolicy                  8.5
-pyobjc-framework-ExternalAccessory                8.5
-pyobjc-framework-FileProvider                     8.5
-pyobjc-framework-FileProviderUI                   8.5
-pyobjc-framework-FinderSync                       8.5
-pyobjc-framework-FSEvents                         8.5
-pyobjc-framework-GameCenter                       8.5
-pyobjc-framework-GameController                   8.5
-pyobjc-framework-GameKit                          8.5
-pyobjc-framework-GameplayKit                      8.5
-pyobjc-framework-ImageCaptureCore                 8.5
-pyobjc-framework-IMServicePlugIn                  8.5
-pyobjc-framework-InputMethodKit                   8.5
-pyobjc-framework-InstallerPlugins                 8.5
-pyobjc-framework-InstantMessage                   8.5
-pyobjc-framework-Intents                          8.5
-pyobjc-framework-IntentsUI                        8.5
-pyobjc-framework-IOSurface                        8.5
-pyobjc-framework-iTunesLibrary                    8.5
-pyobjc-framework-KernelManagement                 8.5
-pyobjc-framework-LatentSemanticMapping            8.5
-pyobjc-framework-LaunchServices                   8.5
-pyobjc-framework-libdispatch                      8.5
-pyobjc-framework-LinkPresentation                 8.5
-pyobjc-framework-LocalAuthentication              8.5
-pyobjc-framework-LocalAuthenticationEmbeddedUI    8.5
-pyobjc-framework-MailKit                          8.5
-pyobjc-framework-MapKit                           8.5
-pyobjc-framework-MediaAccessibility               8.5
-pyobjc-framework-MediaLibrary                     8.5
-pyobjc-framework-MediaPlayer                      8.5
-pyobjc-framework-MediaToolbox                     8.5
-pyobjc-framework-Metal                            8.5
-pyobjc-framework-MetalKit                         8.5
-pyobjc-framework-MetalPerformanceShaders          8.5
-pyobjc-framework-MetalPerformanceShadersGraph     8.5
-pyobjc-framework-MetricKit                        8.5
-pyobjc-framework-MLCompute                        8.5
-pyobjc-framework-ModelIO                          8.5
-pyobjc-framework-MultipeerConnectivity            8.5
-pyobjc-framework-NaturalLanguage                  8.5
-pyobjc-framework-NetFS                            8.5
-pyobjc-framework-Network                          8.5
-pyobjc-framework-NetworkExtension                 8.5
-pyobjc-framework-NotificationCenter               8.5
-pyobjc-framework-OpenDirectory                    8.5
-pyobjc-framework-OSAKit                           8.5
-pyobjc-framework-OSLog                            8.5
-pyobjc-framework-PassKit                          8.5
-pyobjc-framework-PencilKit                        8.5
-pyobjc-framework-Photos                           8.5
-pyobjc-framework-PhotosUI                         8.5
-pyobjc-framework-PreferencePanes                  8.5
-pyobjc-framework-PushKit                          8.5
-pyobjc-framework-Quartz                           8.5
-pyobjc-framework-QuickLookThumbnailing            8.5
-pyobjc-framework-ReplayKit                        8.5
-pyobjc-framework-SafariServices                   8.5
-pyobjc-framework-SceneKit                         8.5
-pyobjc-framework-ScreenCaptureKit                 8.5
-pyobjc-framework-ScreenSaver                      8.5
-pyobjc-framework-ScreenTime                       8.5
-pyobjc-framework-ScriptingBridge                  8.5
-pyobjc-framework-SearchKit                        8.5
-pyobjc-framework-Security                         8.5
-pyobjc-framework-SecurityFoundation               8.5
-pyobjc-framework-SecurityInterface                8.5
-pyobjc-framework-ServiceManagement                8.5
-pyobjc-framework-ShazamKit                        8.5
-pyobjc-framework-Social                           8.5
-pyobjc-framework-SoundAnalysis                    8.5
-pyobjc-framework-Speech                           8.5
-pyobjc-framework-SpriteKit                        8.5
-pyobjc-framework-StoreKit                         8.5
-pyobjc-framework-SyncServices                     8.5
-pyobjc-framework-SystemConfiguration              8.5
-pyobjc-framework-SystemExtensions                 8.5
-pyobjc-framework-UniformTypeIdentifiers           8.5
-pyobjc-framework-UserNotifications                8.5
-pyobjc-framework-UserNotificationsUI              8.5
-pyobjc-framework-VideoSubscriberAccount           8.5
-pyobjc-framework-VideoToolbox                     8.5
-pyobjc-framework-Virtualization                   8.5
-pyobjc-framework-Vision                           8.5
-pyobjc-framework-WebKit                           8.5
-pyodbc                                            4.0.34
-pyOpenSSL                                         22.0.0
-pyparsing                                         2.4.7
-PyQt5                                             5.15.7
-PyQt5-Qt5                                         5.15.2
-PyQt5-sip                                         12.11.0
-pyrsistent                                        0.18.0
-pysimdjson                                        3.2.0
-PySocks                                           1.7.1
-pystan                                            3.5.0
-pytesseract                                       0.3.10
-python-bidi                                       0.4.2
-python-dateutil                                   2.8.2
-python-dotenv                                     0.21.0
-python-slugify                                    6.1.2
-pyttsx3                                           2.90
-pytz                                              2021.3
-pytz-deprecation-shim                             0.1.0.post0
-PyWavelets                                        1.3.0
-PyYAML                                            5.4.1
-pyzmq                                             22.3.0
-regex                                             2022.8.17
-requests                                          2.27.1
-requests-oauthlib                                 1.3.1
-retina-face                                       0.0.10
-rich                                              12.6.0
-rsa                                               4.8
-sacrebleu                                         2.2.0
-scikit-image                                      0.19.2
-scikit-learn                                      1.1.2
-scipy                                             1.8.1
-seaborn                                           0.11.2
-selenium                                          4.3.0
-semver                                            2.13.0
-Send2Trash                                        1.8.0
-sentencepiece                                     0.1.97
-seqeval                                           1.2.2
-setuptools                                        61.2.0
-setuptools-git                                    1.2
-six                                               1.16.0
-smmap                                             5.0.0
-sniffio                                           1.2.0
-sortedcontainers                                  2.4.0
-soupsieve                                         2.3.1
-SpeechRecognition                                 3.8.1
-sqlparse                                          0.4.2
-stack-data                                        0.2.0
-streamlit                                         1.14.1
-tabulate                                          0.8.10
-tenacity                                          8.0.1
-tensorboard                                       2.9.0
-tensorboard-data-server                           0.6.1
-tensorboard-plugin-wit                            1.8.1
-tensorflow                                        2.9.2
-tensorflow-addons                                 0.17.1
-tensorflow-datasets                               4.6.0
-tensorflow-estimator                              2.9.0
-tensorflow-hub                                    0.12.0
-tensorflow-io                                     0.26.0
-tensorflow-io-gcs-filesystem                      0.26.0
-tensorflow-metadata                               1.10.0
-tensorflow-model-optimization                     0.7.3
-tensorflow-text                                   2.9.0
-termcolor                                         1.1.0
-terminado                                         0.13.1
-testpath                                          0.5.0
-text-unidecode                                    1.3
-tf-models-official                                2.9.2
-tf-slim                                           1.1.0
-threadpoolctl                                     3.1.0
-tifffile                                          2022.5.4
-toml                                              0.10.2
-toolz                                             0.12.0
-torch                                             1.11.0
-torchaudio                                        0.11.0
-torchvision                                       0.12.0
-tornado                                           6.1
-tqdm                                              4.64.0
-traitlets                                         5.1.1
-trio                                              0.21.0
-trio-websocket                                    0.9.2
-typeguard                                         2.13.3
-typing_extensions                                 4.1.1
-tzdata                                            2022.6
-tzlocal                                           4.2
-unicodedata2                                      14.0.0
-uritemplate                                       4.1.1
-urllib3                                           1.26.9
-validators                                        0.20.0
-wcwidth                                           0.2.5
-webargs                                           8.2.0
-webdriver-manager                                 3.8.4
-webencodings                                      0.5.1
-websocket-client                                  0.58.0
-Werkzeug                                          2.1.2
-wheel                                             0.37.1
-widgetsnbextension                                3.6.1
-wordcloud                                         1.8.2.2
-wrapt                                             1.12.1
-wsproto                                           1.1.0
-xarray                                            2022.6.0
-xarray-einstats                                   0.3.0
-xgboost                                           1.6.2
-xyzservices                                       2022.9.0
-yarl                                              1.8.1
-zipp                                              3.8.0
+absl-py==1.2.0
+aiohttp==3.8.1
+aiosignal==1.2.0
+altair==4.2.0
+anyio @ file:///opt/concourse/worker/volumes/live/fdfc134d-03e4-4e6b-4eab-c131ac108813/volume/anyio_1644481717647/work/dist
+apache-beam==2.41.0
+appdirs==1.4.4
+appnope @ file:///opt/concourse/worker/volumes/live/5f13e5b3-5355-4541-5fc3-f08850c73cf9/volume/appnope_1606859448618/work
+apyori==1.1.2
+argon2-cffi @ file:///opt/conda/conda-bld/argon2-cffi_1645000214183/work
+argon2-cffi-bindings @ file:///opt/concourse/worker/volumes/live/0628405f-5e68-4591-7d86-fffe9a78a449/volume/argon2-cffi-bindings_1644569695448/work
+arviz @ file:///home/conda/feedstock_root/build_artifacts/arviz_1657673190308/work
+asgiref==3.5.2
+asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
+astunparse==1.6.3
+async-generator==1.10
+async-timeout==4.0.2
+attrs @ file:///opt/conda/conda-bld/attrs_1642510447205/work
+Augmentor==0.2.10
+avro-python3==1.10.2
+Babel @ file:///tmp/build/80754af9/babel_1620871417480/work
+backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+backports.zoneinfo==0.2.1
+beautifulsoup4 @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_croot-cdiouih5/beautifulsoup4_1650462164803/work
+bing-image-downloader==1.1.2
+bleach @ file:///opt/conda/conda-bld/bleach_1641577558959/work
+blinker==1.5
+bokeh==2.4.3
+branca @ file:///home/conda/feedstock_root/build_artifacts/branca_1650311966802/work
+brotlipy==0.7.0
+cachetools==5.1.0
+certifi==2022.12.7
+cffi @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/croot-2p6q7e2r/cffi_1642701115063/work
+cftime @ file:///Users/runner/miniforge3/conda-bld/cftime_1656803743044/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click==8.1.3
+clikit==0.6.2
+cloudpickle==2.1.0
+cmdstanpy==0.9.5
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1655412516417/work
+commonmark==0.9.1
+contextlib2==21.6.0
+contourpy==1.0.5
+convertdate @ file:///home/conda/feedstock_root/build_artifacts/convertdate_1642883757836/work
+cplex==22.1.0.0
+crashtest==0.3.1
+crcmod==1.7
+cryptography @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_b470f7cb-c8f1-42c9-b84f-23789ea77e7c9difcqh4/croots/recipe/cryptography_1652101134392/work
+cycler @ file:///home/conda/feedstock_root/build_artifacts/cycler_1635519461629/work
+Cython==0.29.32
+debugpy @ file:///opt/concourse/worker/volumes/live/e17abc9f-08a9-4dca-4e9b-e6d24bde47ce/volume/debugpy_1637091828617/work
+decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
+deepface==0.0.75
+defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
+dill==0.3.1.1
+Django==4.1.1
+django-crispy-forms==1.14.0
+dm-tree==0.1.7
+docopt==0.6.2
+docplex==2.23.222
+easydict==1.9
+easyocr==1.4.2
+entrypoints @ file:///opt/concourse/worker/volumes/live/84dd3e87-c86b-405f-5113-9d1bdbfd10b9/volume/entrypoints_1649926452122/work
+ephem @ file:///opt/concourse/worker/volumes/live/fefbe1ea-ea20-4633-72cd-9607b1b97053/volume/ephem_1638960318460/work
+et-xmlfile==1.1.0
+etils==0.7.1
+executing @ file:///opt/conda/conda-bld/executing_1646925071911/work
+fastavro==1.6.0
+fastjsonschema @ file:///tmp/build/80754af9/python-fastjsonschema_1620414857593/work/dist
+fbprophet @ file:///Users/runner/miniforge3/conda-bld/fbprophet_1599365543906/work
+filelock==3.7.0
+fire==0.4.0
+Flask==2.1.2
+flatbuffers==1.12
+folium @ file:///home/conda/feedstock_root/build_artifacts/folium_1638560701663/work
+fonttools @ file:///Users/runner/miniforge3/conda-bld/fonttools_1661381540950/work
+frozenlist==1.3.1
+future==0.18.2
+gast==0.4.0
+gdown==4.4.0
+gin-config==0.5.0
+gitdb==4.0.9
+GitPython==3.1.29
+google-api-core==2.10.0
+google-api-python-client==2.58.0
+google-auth==2.6.6
+google-auth-httplib2==0.1.0
+google-auth-oauthlib==0.4.6
+google-images-download @ git+https://github.com/Joeclinton1/google-images-download.git@ce512d99ff4c5f74a3cfa3bcf83c6a5b05bd873f
+google-pasta==0.2.0
+googleapis-common-protos==1.56.4
+grpcio==1.34.1
+h11==0.13.0
+h5py==3.1.0
+hdfs==2.7.0
+hijri-converter @ file:///home/conda/feedstock_root/build_artifacts/hijri-converter_1653348285237/work
+holidays @ file:///home/conda/feedstock_root/build_artifacts/holidays_1661252738306/work
+httplib2==0.20.4
+httpstan==4.8.2
+idna @ file:///tmp/build/80754af9/idna_1637925883363/work
+imageio==2.19.2
+importlib-metadata==4.11.4
+importlib-resources @ file:///tmp/build/80754af9/importlib_resources_1625135880749/work
+ipykernel @ file:///opt/concourse/worker/volumes/live/675cc243-e35d-4e85-47e2-838adcdd7698/volume/ipykernel_1647000791373/work/dist/ipykernel-6.9.1-py3-none-any.whl
+ipympl==0.9.2
+ipython @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_2ff86d21-7133-4fee-b3b2-6349ba52809eua87k1km/croots/recipe/ipython_1651600160735/work
+ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
+ipywidgets @ file:///home/conda/feedstock_root/build_artifacts/ipywidgets_1655973868664/work
+itsdangerous==2.1.2
+jedi @ file:///opt/concourse/worker/volumes/live/fb2e45f1-1dff-42fa-6cab-bd094a4c4372/volume/jedi_1644315264796/work
+Jinja2 @ file:///opt/conda/conda-bld/jinja2_1647436528585/work
+joblib==1.1.0
+json5 @ file:///tmp/build/80754af9/json5_1624432770122/work
+jsonschema @ file:///opt/concourse/worker/volumes/live/1beb334e-6e10-4087-469b-f1503d43266f/volume/jsonschema_1650025993686/work
+jupyter-client @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_4d0a367d-74c5-447f-831e-3e1fd3984797bfrg56pj/croots/recipe/jupyter_client_1650622206454/work
+jupyter-core @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_8ba802e0-15f6-4a45-a9ee-144034526783uwxtvvew/croots/recipe/jupyter_core_1651671235924/work
+jupyter-server @ file:///opt/conda/conda-bld/jupyter_server_1644494914632/work
+jupyterlab @ file:///opt/conda/conda-bld/jupyterlab_1647445413472/work
+jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
+jupyterlab-server @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_croot-wqmoeco6/jupyterlab_server_1650462184481/work
+jupyterlab-widgets @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_widgets_1655961217661/work
+kaggle==1.5.12
+keras==2.9.0
+keras-nightly==2.5.0.dev2021032900
+Keras-Preprocessing==1.1.2
+kiwisolver==1.4.4
+korean-lunar-calendar @ file:///home/conda/feedstock_root/build_artifacts/korean_lunar_calendar_1589354365811/work
+libclang==14.0.1
+LunarCalendar==0.0.9
+lvis==0.5.3
+lxml==4.9.1
+Markdown==3.3.7
+MarkupSafe @ file:///opt/concourse/worker/volumes/live/c9141381-1dba-485b-7c96-99007bf7bcfd/volume/markupsafe_1621528150226/work
+marshmallow==3.17.1
+matplotlib==3.6.0
+matplotlib-inline @ file:///tmp/build/80754af9/matplotlib-inline_1628242447089/work
+mistune @ file:///opt/concourse/worker/volumes/live/95802d64-d39c-491b-74ce-b9326880ca54/volume/mistune_1594373201816/work
+mkl-fft==1.3.1
+mkl-random @ file:///opt/concourse/worker/volumes/live/f196a661-8e33-4aac-63bc-efb2ff50e035/volume/mkl_random_1626186080069/work
+mkl-service==2.4.0
+mtcnn==0.1.1
+multi-label-pigeon==0.2.0
+multidict==6.0.2
+munkres==1.1.4
+nb-conda-kernels @ file:///opt/concourse/worker/volumes/live/82c137e0-23e6-475b-7bb1-19e036b0f8ea/volume/nb_conda_kernels_1606775964383/work
+nbclassic @ file:///opt/conda/conda-bld/nbclassic_1644943264176/work
+nbclient @ file:///opt/concourse/worker/volumes/live/c997a406-d366-4a23-5c1f-00126bcb589a/volume/nbclient_1650308377979/work
+nbconvert @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_croot-mv2swkk7/nbconvert_1649751922903/work
+nbformat @ file:///opt/concourse/worker/volumes/live/5df1c094-b23e-45d9-43de-8e6c717c9b9d/volume/nbformat_1649844930724/work
+nest-asyncio @ file:///opt/concourse/worker/volumes/live/a7f89d20-060a-480e-487d-25959e806725/volume/nest-asyncio_1649847918874/work
+netCDF4 @ file:///Users/runner/miniforge3/conda-bld/netcdf4_1656505626111/work
+networkx==2.8.2
+notebook @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_f5a41ea2-97a0-4ff3-8669-7d94d31f65f7qv3p8st_/croots/recipe/notebook_1651734546956/work
+numpy @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_e3f85f54-0572-4c0e-b190-4bc4766fc3fenewxarhq/croots/recipe/numpy_and_numpy_base_1652801682879/work
+oauth2client==4.1.3
+oauthlib==3.2.0
+object-detection @ file:///Users/egemeneroglu/PycharmProjects/101_project/Tensorflow/models/research
+opencv-contrib-python==4.5.5.64
+opencv-python==4.5.5.64
+opencv-python-headless==4.5.4.60
+openpyxl==3.0.10
+opt-einsum==3.3.0
+orjson==3.8.0
+outcome==1.2.0
+packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
+pandas==1.4.2
+pandocfilters @ file:///opt/conda/conda-bld/pandocfilters_1643405455980/work
+parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
+pastel==0.2.1
+pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+Pillow==9.1.1
+plotly==5.11.0
+portalocker==2.5.1
+prometheus-client @ file:///opt/conda/conda-bld/prometheus_client_1643788673601/work
+promise==2.3
+prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1633440160888/work
+proto-plus==1.22.1
+protobuf==3.20.3
+psutil==5.9.1
+ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
+PuLP==2.6.0
+pure-eval @ file:///opt/conda/conda-bld/pure_eval_1646925070566/work
+py-cpuinfo==8.0.0
+pyarrow==7.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+PyAudio==0.2.11
+pycocotools==2.0.4
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pydeck==0.8.0
+pydot==1.4.2
+Pygments @ file:///opt/conda/conda-bld/pygments_1644249106324/work
+pylev==1.4.0
+PyMeeus==0.5.11
+pymongo==3.12.3
+Pympler==1.0.1
+pyobjc==8.5
+pyobjc-core==8.5
+pyobjc-framework-Accessibility==8.5
+pyobjc-framework-Accounts==8.5
+pyobjc-framework-AddressBook==8.5
+pyobjc-framework-AdServices==8.5
+pyobjc-framework-AdSupport==8.5
+pyobjc-framework-AppleScriptKit==8.5
+pyobjc-framework-AppleScriptObjC==8.5
+pyobjc-framework-ApplicationServices==8.5
+pyobjc-framework-AppTrackingTransparency==8.5
+pyobjc-framework-AudioVideoBridging==8.5
+pyobjc-framework-AuthenticationServices==8.5
+pyobjc-framework-AutomaticAssessmentConfiguration==8.5
+pyobjc-framework-Automator==8.5
+pyobjc-framework-AVFoundation==8.5
+pyobjc-framework-AVKit==8.5
+pyobjc-framework-BusinessChat==8.5
+pyobjc-framework-CalendarStore==8.5
+pyobjc-framework-CallKit==8.5
+pyobjc-framework-CFNetwork==8.5
+pyobjc-framework-ClassKit==8.5
+pyobjc-framework-CloudKit==8.5
+pyobjc-framework-Cocoa==8.5
+pyobjc-framework-Collaboration==8.5
+pyobjc-framework-ColorSync==8.5
+pyobjc-framework-Contacts==8.5
+pyobjc-framework-ContactsUI==8.5
+pyobjc-framework-CoreAudio==8.5
+pyobjc-framework-CoreAudioKit==8.5
+pyobjc-framework-CoreBluetooth==8.5
+pyobjc-framework-CoreData==8.5
+pyobjc-framework-CoreHaptics==8.5
+pyobjc-framework-CoreLocation==8.5
+pyobjc-framework-CoreMedia==8.5
+pyobjc-framework-CoreMediaIO==8.5
+pyobjc-framework-CoreMIDI==8.5
+pyobjc-framework-CoreML==8.5
+pyobjc-framework-CoreMotion==8.5
+pyobjc-framework-CoreServices==8.5
+pyobjc-framework-CoreSpotlight==8.5
+pyobjc-framework-CoreText==8.5
+pyobjc-framework-CoreWLAN==8.5
+pyobjc-framework-CryptoTokenKit==8.5
+pyobjc-framework-DataDetection==8.5
+pyobjc-framework-DeviceCheck==8.5
+pyobjc-framework-DictionaryServices==8.5
+pyobjc-framework-DiscRecording==8.5
+pyobjc-framework-DiscRecordingUI==8.5
+pyobjc-framework-DiskArbitration==8.5
+pyobjc-framework-DVDPlayback==8.5
+pyobjc-framework-EventKit==8.5
+pyobjc-framework-ExceptionHandling==8.5
+pyobjc-framework-ExecutionPolicy==8.5
+pyobjc-framework-ExternalAccessory==8.5
+pyobjc-framework-FileProvider==8.5
+pyobjc-framework-FileProviderUI==8.5
+pyobjc-framework-FinderSync==8.5
+pyobjc-framework-FSEvents==8.5
+pyobjc-framework-GameCenter==8.5
+pyobjc-framework-GameController==8.5
+pyobjc-framework-GameKit==8.5
+pyobjc-framework-GameplayKit==8.5
+pyobjc-framework-ImageCaptureCore==8.5
+pyobjc-framework-IMServicePlugIn==8.5
+pyobjc-framework-InputMethodKit==8.5
+pyobjc-framework-InstallerPlugins==8.5
+pyobjc-framework-InstantMessage==8.5
+pyobjc-framework-Intents==8.5
+pyobjc-framework-IntentsUI==8.5
+pyobjc-framework-IOSurface==8.5
+pyobjc-framework-iTunesLibrary==8.5
+pyobjc-framework-KernelManagement==8.5
+pyobjc-framework-LatentSemanticMapping==8.5
+pyobjc-framework-LaunchServices==8.5
+pyobjc-framework-libdispatch==8.5
+pyobjc-framework-LinkPresentation==8.5
+pyobjc-framework-LocalAuthentication==8.5
+pyobjc-framework-LocalAuthenticationEmbeddedUI==8.5
+pyobjc-framework-MailKit==8.5
+pyobjc-framework-MapKit==8.5
+pyobjc-framework-MediaAccessibility==8.5
+pyobjc-framework-MediaLibrary==8.5
+pyobjc-framework-MediaPlayer==8.5
+pyobjc-framework-MediaToolbox==8.5
+pyobjc-framework-Metal==8.5
+pyobjc-framework-MetalKit==8.5
+pyobjc-framework-MetalPerformanceShaders==8.5
+pyobjc-framework-MetalPerformanceShadersGraph==8.5
+pyobjc-framework-MetricKit==8.5
+pyobjc-framework-MLCompute==8.5
+pyobjc-framework-ModelIO==8.5
+pyobjc-framework-MultipeerConnectivity==8.5
+pyobjc-framework-NaturalLanguage==8.5
+pyobjc-framework-NetFS==8.5
+pyobjc-framework-Network==8.5
+pyobjc-framework-NetworkExtension==8.5
+pyobjc-framework-NotificationCenter==8.5
+pyobjc-framework-OpenDirectory==8.5
+pyobjc-framework-OSAKit==8.5
+pyobjc-framework-OSLog==8.5
+pyobjc-framework-PassKit==8.5
+pyobjc-framework-PencilKit==8.5
+pyobjc-framework-Photos==8.5
+pyobjc-framework-PhotosUI==8.5
+pyobjc-framework-PreferencePanes==8.5
+pyobjc-framework-PushKit==8.5
+pyobjc-framework-Quartz==8.5
+pyobjc-framework-QuickLookThumbnailing==8.5
+pyobjc-framework-ReplayKit==8.5
+pyobjc-framework-SafariServices==8.5
+pyobjc-framework-SceneKit==8.5
+pyobjc-framework-ScreenCaptureKit==8.5
+pyobjc-framework-ScreenSaver==8.5
+pyobjc-framework-ScreenTime==8.5
+pyobjc-framework-ScriptingBridge==8.5
+pyobjc-framework-SearchKit==8.5
+pyobjc-framework-Security==8.5
+pyobjc-framework-SecurityFoundation==8.5
+pyobjc-framework-SecurityInterface==8.5
+pyobjc-framework-ServiceManagement==8.5
+pyobjc-framework-ShazamKit==8.5
+pyobjc-framework-Social==8.5
+pyobjc-framework-SoundAnalysis==8.5
+pyobjc-framework-Speech==8.5
+pyobjc-framework-SpriteKit==8.5
+pyobjc-framework-StoreKit==8.5
+pyobjc-framework-SyncServices==8.5
+pyobjc-framework-SystemConfiguration==8.5
+pyobjc-framework-SystemExtensions==8.5
+pyobjc-framework-UniformTypeIdentifiers==8.5
+pyobjc-framework-UserNotifications==8.5
+pyobjc-framework-UserNotificationsUI==8.5
+pyobjc-framework-VideoSubscriberAccount==8.5
+pyobjc-framework-VideoToolbox==8.5
+pyobjc-framework-Virtualization==8.5
+pyobjc-framework-Vision==8.5
+pyobjc-framework-WebKit==8.5
+pyodbc==4.0.34
+pyOpenSSL @ file:///opt/conda/conda-bld/pyopenssl_1643788558760/work
+pyparsing==2.4.7
+PyQt5==5.15.7
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.11.0
+pyrsistent @ file:///opt/concourse/worker/volumes/live/ac52847c-5646-4583-7286-af47061006cb/volume/pyrsistent_1636111017177/work
+pysimdjson==3.2.0
+PySocks @ file:///opt/concourse/worker/volumes/live/85a5b906-0e08-41d9-6f59-084cee4e9492/volume/pysocks_1594394636991/work
+pystan==3.5.0
+pytesseract @ file:///home/conda/feedstock_root/build_artifacts/pytesseract_1647306555263/work
+python-bidi==0.4.2
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+python-dotenv==0.21.0
+python-slugify==6.1.2
+pyttsx3==2.90
+pytz==2021.3
+pytz-deprecation-shim==0.1.0.post0
+PyWavelets==1.3.0
+PyYAML==5.4.1
+pyzmq @ file:///opt/concourse/worker/volumes/live/12b008ff-2acb-4e15-682d-fce50395a9d4/volume/pyzmq_1638434992289/work
+regex==2022.8.17
+requests @ file:///opt/conda/conda-bld/requests_1641824580448/work
+requests-oauthlib==1.3.1
+retina-face==0.0.10
+rich==12.6.0
+rsa==4.8
+sacrebleu==2.2.0
+scikit-image==0.19.2
+scikit-learn==1.1.2
+scipy==1.8.1
+seaborn==0.11.2
+selenium==4.3.0
+semver==2.13.0
+Send2Trash @ file:///tmp/build/80754af9/send2trash_1632406701022/work
+sentencepiece==0.1.97
+seqeval==1.2.2
+setuptools-git==1.2
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+smmap==5.0.0
+sniffio @ file:///opt/concourse/worker/volumes/live/1faeb672-6d3f-4f1f-7861-294fcf282962/volume/sniffio_1614030462215/work
+sortedcontainers==2.4.0
+soupsieve @ file:///tmp/build/80754af9/soupsieve_1636706018808/work
+SpeechRecognition==3.8.1
+sqlparse==0.4.2
+stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
+streamlit==1.14.1
+tabulate==0.8.10
+tenacity @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_15d3bbab-3059-4048-adcb-986fb2669dd5nujdx5qd/croots/recipe/tenacity_1657899116644/work
+tensorboard==2.9.0
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+tensorflow==2.9.2
+tensorflow-addons==0.17.1
+tensorflow-datasets==4.6.0
+tensorflow-estimator==2.9.0
+tensorflow-hub==0.12.0
+tensorflow-io==0.26.0
+tensorflow-io-gcs-filesystem==0.26.0
+tensorflow-metadata==1.10.0
+tensorflow-model-optimization==0.7.3
+tensorflow-text==2.9.0
+termcolor==1.1.0
+terminado @ file:///opt/concourse/worker/volumes/live/77a7a2fc-5569-4ff8-4f8c-22be111c7b5e/volume/terminado_1644322600385/work
+testpath @ file:///tmp/build/80754af9/testpath_1624638946665/work
+text-unidecode==1.3
+tf-models-official==2.9.2
+tf-slim==1.1.0
+threadpoolctl==3.1.0
+tifffile==2022.5.4
+toml==0.10.2
+toolz==0.12.0
+torch==1.11.0
+torchaudio==0.11.0
+torchvision==0.12.0
+tornado @ file:///opt/concourse/worker/volumes/live/05341796-4198-4ded-4a9a-332fde3cdfd1/volume/tornado_1606942323372/work
+tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1649051611147/work
+traitlets @ file:///tmp/build/80754af9/traitlets_1636710298902/work
+trio==0.21.0
+trio-websocket==0.9.2
+typeguard==2.13.3
+typing_extensions @ file:///opt/conda/conda-bld/typing_extensions_1647553014482/work
+tzdata==2022.6
+tzlocal==4.2
+unicodedata2 @ file:///Users/runner/miniforge3/conda-bld/unicodedata2_1649111979354/work
+uritemplate==4.1.1
+urllib3 @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_92f3a881-8cf4-469b-8319-736ffa3c6d61ordl4zjw/croots/recipe/urllib3_1650639998913/work
+validators==0.20.0
+wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
+webargs==8.2.0
+webdriver-manager==3.8.4
+webencodings==0.5.1
+websocket-client @ file:///opt/concourse/worker/volumes/live/33f08e32-117b-4292-6b8b-654f31bc9cf3/volume/websocket-client_1614804246367/work
+Werkzeug==2.1.2
+widgetsnbextension @ file:///home/conda/feedstock_root/build_artifacts/widgetsnbextension_1655939017940/work
+wordcloud @ file:///Users/runner/miniforge3/conda-bld/wordcloud_1661463885131/work
+wrapt==1.12.1
+wsproto==1.1.0
+xarray @ file:///home/conda/feedstock_root/build_artifacts/xarray_1658844022165/work
+xarray-einstats @ file:///home/conda/feedstock_root/build_artifacts/xarray-einstats_1655671011237/work
+xgboost==1.6.2
+xyzservices==2022.9.0
+yarl==1.8.1
+zipp @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_b279673d-f037-44c7-8773-c5a6b6f51037d3wfr9cq/croots/recipe/zipp_1652341773612/work
