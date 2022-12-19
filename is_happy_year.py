@@ -1,7 +1,7 @@
 # Libraries
 import pandas as pd
 import streamlit as st
-from fbprophet import Prophet
+from prophet import Prophet
 
 # Configurations
 st.set_page_config( 

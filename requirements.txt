@@ -1,4 +1,4 @@
-fbprophet==0.7.1
+prophet==1.1.1
 pandas==1.4.2
 streamlit==1.14.1
 pystan==3.5.0
