@@ -1,5 +1,6 @@
 # Libraries
 import pandas as pd
+import altair as alt
 import streamlit as st
 from prophet import Prophet
 
@@ -49,13 +50,16 @@ def train_model(df):
 result = train_model(df)
 result = int(result)
 
+df['y'].iat[-1] = result  # update dataframe's 2023 value with prediction
 
-def plot_graph():
-    chart_data = df['y']
-    return chart_data
 
-chart_data = plot_graph()
-   
+def plot_graph(df=df):
+    c = alt.Chart(df, title='Your Timeline').mark_line().encode(
+     x='ds', y='y')
+    return c
+    
+plot = plot_graph()
+
 
 # Buttons
 if st.sidebar.button("Make it Snow!❄️"):  # Easter Egg :3
@@ -64,23 +68,30 @@ if st.sidebar.button("Make it Snow!❄️"):  # Easter Egg :3
 
 if st.button("Predict 2023!"):
     if result > 5:
+        if result > 10:
+            result = 10
+
         st.balloons()
-        st.markdown(f"<h1 style='text-align:center;'><font color='green'>{result}</font></h1>",unsafe_allow_html=True)
+        st.markdown(f"<h1 style='text-align:center;'><font color='green'>{result}</font>/10</h1>",unsafe_allow_html=True)
         st.markdown("<h2 style='text-align:center;'><font color= 'green'>Congratulations! A good year awaits you.🥳</font></h2>", unsafe_allow_html=True)  
-        st.line_chart(chart_data)  
+        st.altair_chart(plot, use_container_width=True)
         
     elif result == 5:
-        st.markdown(f"<h1 style='text-align:center;'><font color='orange'>{result}</font></h1>",unsafe_allow_html=True)
+        st.markdown(f"<h1 style='text-align:center;'><font color='orange'>{result}</font>/10</h1>",unsafe_allow_html=True)
+
         st.markdown("<h2 style='text-align:center;'><font color='orange'>Neither good nor bad. Then it's up to you to make this year a good one!😉</font></h2>", unsafe_allow_html=True)
-        st.line_chart(chart_data)    
+
+        st.altair_chart(plot, use_container_width=True)  
 
     elif 0 < result < 5:
-        st.markdown(f"<h1 style='text-align:center;'><font color='red'>{result}</font></h1>",unsafe_allow_html=True)
-        st.markdown("<h2 style='text-align:center;'><font color='red'>Which of our years went well so that this year will be good, right? Nevermind..😒</font></h2>", unsafe_allow_html=True)  
-        st.line_chart(chart_data) 
+        st.markdown(f"<h1 style='text-align:center;'><font color='red'>{result}</font></h1>",
+        unsafe_allow_html=True)
+        st.markdown("<h2 style='text-align:center;'><font color='red'>Which of our years went well so that this year will be good, right? Nevermind..😒</font></h2>", unsafe_allow_html=True)
+        st.altair_chart(plot, use_container_width=True) 
 
     elif result < 0:
         result = 0
-        st.markdown(f"<h1 style='text-align:center;'><font color='red'>{result}</font></h1>",unsafe_allow_html=True)
+        st.markdown(f"<h1 style='text-align:center;'><font color='red'>{result}</font>/10</h1>",
+        unsafe_allow_html=True)
         st.markdown("<h2 style='text-align:center;'><font color='red'>My prediction is probably wrong.(I hope..)😔</font></h2>", unsafe_allow_html=True)
-        st.line_chart(chart_data) 
+        st.altair_chart(plot, use_container_width=True) 
